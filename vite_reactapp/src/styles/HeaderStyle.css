@@ -1,0 +1,32 @@
+.navigate-menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigate-menu li{
+    margin: 0px 20px;
+}
+.navigate-menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+.active{
+    color: goldenrod  !important;
+    font-weight: bold !important;
+}
+
+/* mobile navigation */
+.mobile-navigation{
+list-style: none;
+}
+.mobile-navigation li{
+    margin-top:20px ;
+}
+.mobile-navigation li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
